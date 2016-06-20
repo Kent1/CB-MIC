@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bot": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,9 @@
     "url": "github.com/Kent1/CB-MIC"
   },
   "author": "Quentin Loos, Harold Waterkeyn",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^1.0.1",
+    "restify": "^4.1.1"
+  }
 }
